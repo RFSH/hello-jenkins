@@ -4,6 +4,6 @@ ssh aref@arefsh.me << EOF
   cd /var/www/hello-jenkins
   git pull origin master
   npm install --production
-  pm2 restart app
+  pm2 restart hello-jenkins
   exit
 EOF
